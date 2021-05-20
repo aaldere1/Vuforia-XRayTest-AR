@@ -1,0 +1,427 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 32665 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/APA Unity Projects Random/XrayTest
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58199
+Successfully changed project path to: D:/APA Unity Projects Random/XrayTest
+D:/APA Unity Projects Random/XrayTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 113.59 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.21 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/APA Unity Projects Random/XrayTest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Vendor:   
+    VRAM:     16202 MB
+    Driver:   27.21.14.6140
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.003074 seconds.
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.90 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.988 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.93 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3917 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 286.9 MB.
+System memory in use after: 287.2 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4656.
+Total: 4.384200 ms (FindLiveObjects: 0.585200 ms CreateObjectMapping: 0.460700 ms MarkObjects: 3.213200 ms  DeleteObjects: 0.123100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/MoviePlayer/Scenes/VideoPlayer.unity
+  artifactKey: Guid(e19a81b2aa963b8429a67934613f006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoviePlayer/Scenes/VideoPlayer.unity using Guid(e19a81b2aa963b8429a67934613f006e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f8f8dd7bfad277ee7705b7b8c6a8f9') in 0.037943 seconds
+  Import took 0.046665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.961718 seconds.
+  path: Assets/Videos/Harry Potter and the Sorcerer's Stone in Concert (Trailer).mp4
+  artifactKey: Guid(797976695e9fc114db7cf9c2e8853786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/Harry Potter and the Sorcerer's Stone in Concert (Trailer).mp4 using Guid(797976695e9fc114db7cf9c2e8853786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eff5e0eef5f41fb47f1a83cb547fce') in 0.064814 seconds
+  Import took 0.071281 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.5 MB.
+System memory in use after: 264.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4659.
+Total: 2.810400 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.254700 ms MarkObjects: 2.105000 ms  DeleteObjects: 0.023600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.583796 seconds.
+  path: Assets/Scenes/PotterScene.unity
+  artifactKey: Guid(64cf52f0910efca4f8fd07390b751b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PotterScene.unity using Guid(64cf52f0910efca4f8fd07390b751b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7e8b58fa2f26f322c780ea460844bd') in 0.077277 seconds
+  Import took 0.083831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.836802 seconds.
+  path: Assets/Scripts/PlayVideo.cs
+  artifactKey: Guid(ff42c237890f7f949a927aa7a43084be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayVideo.cs using Guid(ff42c237890f7f949a927aa7a43084be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d8781f5e8f80de7275dd008e15abf7') in 0.056966 seconds
+  Import took 0.063311 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.6 MB.
+System memory in use after: 264.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4662.
+Total: 3.030800 ms (FindLiveObjects: 0.542900 ms CreateObjectMapping: 0.296900 ms MarkObjects: 2.158500 ms  DeleteObjects: 0.031200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.430028 seconds.
+  path: Assets/Scripts/BodyPartList.cs
+  artifactKey: Guid(0c84f50c5d9d50e4cb317c137ba19593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BodyPartList.cs using Guid(0c84f50c5d9d50e4cb317c137ba19593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b931e5184aead55999a071a0b469383') in 0.045677 seconds
+  Import took 0.054201 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 250.90 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.820 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.6 MB.
+System memory in use after: 264.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4665.
+Total: 3.548700 ms (FindLiveObjects: 0.503700 ms CreateObjectMapping: 0.303000 ms MarkObjects: 2.719300 ms  DeleteObjects: 0.021900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.651145 seconds.
+  path: Assets/MoviePlayer/Scenes
+  artifactKey: Guid(13356e86bbb14f24299cfad23b033001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoviePlayer/Scenes using Guid(13356e86bbb14f24299cfad23b033001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee2c5b2da84a6ac42a92331211a553') in 0.021806 seconds
+  Import took 0.029372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.807154 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(45d58bf204d42ee48a99fc63dfb594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(45d58bf204d42ee48a99fc63dfb594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b587c22ee9c4acef4ceb6ac85ec8a6e2') in 0.006575 seconds
+  Import took 0.057953 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.6 MB.
+System memory in use after: 264.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4668.
+Total: 3.330400 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.300700 ms MarkObjects: 2.507900 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.080485 seconds.
+  path: Assets/Scenes/PotterScene2.unity
+  artifactKey: Guid(00ad3ea77874bd84a96ba11b786c8ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PotterScene2.unity using Guid(00ad3ea77874bd84a96ba11b786c8ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f97e5ea95b0d54ee743d5f87bade60') in 0.019721 seconds
+  Import took 0.026581 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.7 MB.
+System memory in use after: 264.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4671.
+Total: 3.251000 ms (FindLiveObjects: 0.430700 ms CreateObjectMapping: 0.266800 ms MarkObjects: 2.527200 ms  DeleteObjects: 0.025000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
