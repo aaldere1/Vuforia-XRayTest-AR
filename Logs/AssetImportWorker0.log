@@ -25087,3 +25087,174 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 Mono: successfully reloaded assembly
 - Completed reload, in  1.496 seconds
 Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 258.9 MB.
+System memory in use after: 259.1 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 5215.
+Total: 3.362500 ms (FindLiveObjects: 0.512400 ms CreateObjectMapping: 0.294800 ms MarkObjects: 2.530000 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 68.61 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5215.
+Total: 3.468000 ms (FindLiveObjects: 0.775100 ms CreateObjectMapping: 0.347800 ms MarkObjects: 2.322700 ms  DeleteObjects: 0.021500 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 9.43 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5215.
+Total: 5.017100 ms (FindLiveObjects: 0.818100 ms CreateObjectMapping: 0.341300 ms MarkObjects: 3.825500 ms  DeleteObjects: 0.030300 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 8.71 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5215.
+Total: 4.981900 ms (FindLiveObjects: 1.004700 ms CreateObjectMapping: 0.412100 ms MarkObjects: 3.538200 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 8.58 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5215.
+Total: 4.407700 ms (FindLiveObjects: 0.639400 ms CreateObjectMapping: 0.284700 ms MarkObjects: 3.456100 ms  DeleteObjects: 0.025500 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 9.42 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5215.
+Total: 5.257500 ms (FindLiveObjects: 1.093500 ms CreateObjectMapping: 0.427200 ms MarkObjects: 3.704200 ms  DeleteObjects: 0.030500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13354.629972 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Prefabs/Interactive/Forcefield/ForcefieldPurple.prefab
+  artifactKey: Guid(a1e942e89b8033d48b112fdedbfac99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Prefabs/Interactive/Forcefield/ForcefieldPurple.prefab using Guid(a1e942e89b8033d48b112fdedbfac99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575869ef815a7ccf82df3e14c29d4f31') in 0.145624 seconds
+  Import took 0.155088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.302188 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_question.FBX
+  artifactKey: Guid(313ee9887678ecd468d7ab76ca771e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_question.FBX using Guid(313ee9887678ecd468d7ab76ca771e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2ce0ec8d7b74c24aeb175ca07b9b17') in 0.410928 seconds
+  Import took 0.418216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.448808 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_shield.FBX
+  artifactKey: Guid(8bd9082fd8a168846bc443838d8d179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_shield.FBX using Guid(8bd9082fd8a168846bc443838d8d179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d095a787a5dd75c9a87aecdf262655d') in 0.063724 seconds
+  Import took 0.070700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.078783 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_speed.FBX
+  artifactKey: Guid(274a1599f6cecb94aa83447f9babab1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_speed.FBX using Guid(274a1599f6cecb94aa83447f9babab1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7435639c684a0edd17861afa02041c9') in 0.059215 seconds
+  Import took 0.065829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.847974 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_bullets.FBX
+  artifactKey: Guid(d91bfacdbf1d39540a7b6d100f0a0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/scifi_power_bullets.FBX using Guid(d91bfacdbf1d39540a7b6d100f0a0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c732bc8a90be1238db0fad53538a6735') in 0.097410 seconds
+  Import took 0.111673 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 9.13 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.8 MB.
+System memory in use after: 211.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5278.
+Total: 4.352000 ms (FindLiveObjects: 0.662400 ms CreateObjectMapping: 0.268100 ms MarkObjects: 3.395100 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 10.31 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.8 MB.
+System memory in use after: 211.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5278.
+Total: 8.125500 ms (FindLiveObjects: 1.603100 ms CreateObjectMapping: 0.643100 ms MarkObjects: 5.828100 ms  DeleteObjects: 0.048600 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 11.32 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.8 MB.
+System memory in use after: 211.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5278.
+Total: 5.490300 ms (FindLiveObjects: 0.720000 ms CreateObjectMapping: 0.367400 ms MarkObjects: 4.367600 ms  DeleteObjects: 0.033400 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 10.61 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.8 MB.
+System memory in use after: 211.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5278.
+Total: 5.741800 ms (FindLiveObjects: 1.163200 ms CreateObjectMapping: 0.399400 ms MarkObjects: 4.151200 ms  DeleteObjects: 0.025400 ms)
+
