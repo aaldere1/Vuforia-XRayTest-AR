@@ -52,3 +52,11 @@ Update Mode: mergeDefaultDependencies
 
 The following packages were added:
   com.unity.render-pipelines.high-definition@7.3.1
+
+=== Thu May 20 21:18:54 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.universal from version 10.4.0 to 10.5.0
