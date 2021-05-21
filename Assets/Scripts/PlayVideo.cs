@@ -22,26 +22,32 @@ public class PlayVideo : MonoBehaviour
     public GameObject Orb3;
     public GameObject ForceFieldHP1;
     public GameObject sideGhost1;
+    
+
 
     // Start is called before the first frame update
     void Start()
     {
-        HP1VideoPlane.SetActive(false);
-        HP2VideoPlane.SetActive(false);
-        HP3VideoPlane.SetActive(false);
-        Orb1.SetActive(false);
-        Orb2.SetActive(false);
-        Orb3.SetActive(false);
-        ForceFieldHP1.SetActive(false);
-        sideGhost1.SetActive(false);
+      
+            HP1VideoPlane.SetActive(false);
+            HP2VideoPlane.SetActive(false);
+            HP3VideoPlane.SetActive(false);
+            Orb1.SetActive(false);
+            Orb2.SetActive(false);
+            Orb3.SetActive(false);
+            ForceFieldHP1.SetActive(false);
+            sideGhost1.SetActive(false);
     }
 
     public void PlayHP1Trailer()
     {
-        HP1VideoPlane.SetActive(true);
-        Orb1.SetActive(true);
-        ForceFieldHP1.SetActive(true);
-        sideGhost1.SetActive(true);
+       
+            HP1VideoPlane.SetActive(true);
+            Orb1.SetActive(true);
+            ForceFieldHP1.SetActive(true);
+            sideGhost1.SetActive(true);
+        
+       
     }
     
     public void PlayHP2Trailer()
